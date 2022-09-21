@@ -1,5 +1,5 @@
 n=input().split()
-a="aeiouAEIOU"
+a='AEIOUaeiou'
 c=0
 for i in n:
     if i[0] in a:

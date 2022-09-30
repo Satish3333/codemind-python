@@ -6,11 +6,10 @@ def rev(n):
         s=s*10+r
     return s
 a=int(input())
-t=rev(a)
-u=t**2
-v=a**2
-if v==rev(u):
+b=rev(a)
+c=a**2
+d=b**2
+if c==rev(d):
     print(True)
 else:
     print(False)
-

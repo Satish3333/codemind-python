@@ -1,4 +1,4 @@
-def fun(n):
+def ds(n):
     s=0
     while n>0:
         r=n%10
@@ -6,14 +6,14 @@ def fun(n):
         a=r**2
         s=s+a
     return s
-t=int(input())
+a=int(input())
 while True:
-    if t<=10:
-        if t==1 or t==7 or t==10:
+    if a<10:
+        if a==1 or a==7:
             print(True)
             break
         else:
             print(False)
             break
     else:
-        t=fun(t)
+        a=ds(a)

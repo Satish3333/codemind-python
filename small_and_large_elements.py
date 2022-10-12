@@ -1,0 +1,9 @@
+n=input().split()
+l=[]
+a=n[0]
+a1=min(a)
+l.append(a1)
+b=n[-1]
+b1=max(b)
+l.append(b1)
+print(*l)

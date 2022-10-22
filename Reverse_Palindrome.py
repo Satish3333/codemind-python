@@ -1,13 +1,13 @@
 def rev(n):
     a=str(n)
-    s=a[::-1]
-    return n+int(s)
+    b=a[::-1]
+    return n+int(b)
 n=int(input())
 while True:
-    b=rev(n)    
-    s=str(b)
-    a=s[::-1]
-    if a==s:
+    s=rev(n)
+    a=str(s)
+    b=a[::-1]
+    if b==a:
         print(a)
         break
     else:
